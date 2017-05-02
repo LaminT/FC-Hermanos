@@ -1,0 +1,795 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #808080;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #92C2F0;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/fc-hermanos-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Team name */
+  font-family: 'Lora', serif;
+  color: #2c3e50;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list a {
+  color: #2c3e50;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #e7e7e7;
+
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #2c3e50;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+
+#testimonials {
+  font-style: italic;
+}
+
+#testimonials, p {
+  text-shadow: 1px 1px 1px #222;
+  
+}
+
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+  text-shadow: 1px 1px 1px #222;
+}
+#clickableAwesomeFont {
+     cursor: pointer
+}
+
+#sponsor{
+  margin: 0 auto;
+  background: url('../images/sponsor1.png')no-repeat;
+  background-position: center;
+  box-shadow: 0 0 20px #4285f4;
+  border: 2px solid #0C0532;
+  width: auto;
+    
+}
+
+/* END FOOTER */
+
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #4285f4;
+  border: 2px solid #0C0532;
+  
+
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #92C2F0;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 2px 5px 2px #000000;
+}
+
+#menu-tile {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 2px 5px 2px #4285f4;
+}
+#menu-categories-title{
+  text-shadow: 1px 1px 1px #222;
+  margin-bottom: 50px;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+
+.text-center {
+   text-shadow: 1px 1px 1px #222;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* PLAYERS PAGE */
+.players-tile {
+  margin-bottom: 25px;
+}
+.players-tile hr {
+  width: 80%;
+}
+.players-tile  {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.players-tile {
+  font-size: .6em;
+}
+.player-tile, h4{
+  text-shadow: 1px 1px 1px #222;
+}
+.players-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.players-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.players-description {
+  padding-right: 30px;
+}
+h3.players-title {
+  margin: 0 0 10px;
+}
+.players-details {
+  font-size: .9em;
+  font-style: italic;
+  text-shadow: 1px 1px 1px #222;
+}
+/* END PLAYERS PAGE */
+
+/* GAMES PAGE */
+
+.livescoreModule .logoWrap, .matchpage .logoWrap{
+        background-color: rgba(0, 51, 0, 1);
+    }
+    .ls_score .score{
+        background-color: rgba(0, 51, 0, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    .ls_event
+    {
+        border: 1px solid rgba(0, 51, 0, 1);
+    }
+
+    .ls_match{
+        border-top: 1px solid rgba(0, 51, 0, 1);
+        border-botttom: 1px solid rgba(0, 51, 0, 1);
+    }
+
+    .matchpage, .matchPageCommentsWrap, .matchPageImages{
+       background-color: rgba(255, 255, 255, 1);
+    }
+
+    .ts_subheader{
+        background-color: rgba(0, 51, 0, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .ts_form .form .formOverlay{
+        background-color: rgba(0, 51, 0, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .formOverlay:after {
+
+  border-bottom-color: rgba(0, 51, 0, 1);
+
+}
+
+
+
+.theme_header{
+
+     background-color:#ffffff;      
+     border-bottom: 3px solid #003300;
+     box-shadow:  0 0 10px #003300;
+     font-size:20px!important;
+     padding-left:5px;
+     text-transform: none;
+     color:#003300;
+     height: auto;
+}
+
+.theme_header>h2{
+    
+   font-size:20px!important;
+   padding-left:10px;
+   text-transform: none;
+   color:#003300;
+   background-color: #ffffff;
+}
+
+
+/* scrollbar */
+
+/*::-webkit-scrollbar {
+              width: 15px;
+}
+
+::-webkit-scrollbar-button:double-button {
+     background-color: #92C2F0;
+} 
+::-webkit-scrollbar-thumb {    
+     background: rgba(0, 51, 0, 0.77);
+     border-radius:3px;
+    -webkit-box-shadow: inset 0 0 0px #92C2F0; 
+}
+
+l::-webkit-scrollbar-corner{
+     background-color: #92C2F0;
+}
+
+::-webkit-scrollbar-track:vertical  {
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 0 0 6px #92C2F0; 
+    border-radius: 3px;
+}
+*/
+
+
+.tTid{
+    width: 48%;
+    height:auto;
+    background-color:#ffffff;
+    float:right;
+
+}
+
+
+/* tabel*/
+
+.tTidTabel_hold{
+    width: 100%;
+    height:auto;
+    background-color:#ffffff;
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    text-align: left;
+    font-family: myriad pro, arial;
+    font-size: 14px;
+    text-indent: 5px;
+    background-color: #ffffff;
+    color: #2c3e50;
+    text-shadow: 1px 1px 1px #222;   
+}
+ 
+table {
+    width: 100%;
+}
+ 
+ th {
+    height: 26px;
+    border: 1px solid #92C2F0;  
+    border-bottom: 2px solid #92C2F0;
+    border-collapse: collapse;
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 200;
+    font-stretch: expanded; 
+    background: rgba(0, 51, 0, 0.77);
+    color: #ffffff;
+    letter-spacing: .07rem;
+  
+}
+
+
+th.top2_opstart{  
+    width: 11%;
+    text-align: center;
+    text-indent: 0px;
+}
+
+th.top3_opstart{
+    width:26%;
+    
+}
+
+th.top2_hold{  
+    width: 23%;
+    text-align: center;
+    text-indent: 0px;
+}
+
+th.top3_hold{
+    width:54%;
+    
+}
+
+.hRow{
+   box-shadow:  0 0 0px #92C2F0;
+
+}
+
+td.light_hold {
+    height: 20px;
+    padding-top: 4px;
+    border: 1px solid #92C2F0;
+}
+
+td.midtLys_hold{
+    height: 20px;
+    padding-top: 4px;
+    border: 1px solid #92C2F0;
+    text-align: center;
+    text-indent: 0px;
+}
+
+td.midtDark_hold{
+    height: 20px;
+    padding-top: 4px;
+    border: 1px solid #92C2F0;
+    text-align: center;
+    background: rgba(0, 153, 0, 0.07); 
+    text-indent: 0px; 
+    
+}
+
+td.dark_hold{
+    height: 20px;
+    padding-top: 4px;
+    border: 1px solid #92C2F0;
+    background: rgba(0, 153, 0, 0.07);  
+}
+
+td.openSpace_hold{
+    border: 0px solid;
+}
+
+
+th.{  
+    width: 27%;
+    text-align: center;
+    text-indent: 0px;
+}
+
+
+/* tabel samarbejdspartnere*/
+
+.samarbejde{
+    width: 100%;
+    height:auto;
+    background-color:#ffffff;
+}
+
+.tabel_samarbejde{
+    width: 100%;
+    height:auto;
+    background-color:#ffffff;
+}
+
+ 
+table {
+    width: 100%;
+}
+ 
+
+th.ts_logo{  
+    width: 20%;
+    text-align: center;
+    text-indent: 0px;
+    height: 110px;
+    border: solid 0px #92C2F0;
+    background-color:#ffffff;
+    vertical-align: center;
+}
+
+th.ts_text{
+    width: 80%;
+    height: 110px;
+    border: solid 0px #92C2F0;
+    background-color:#ffffff;
+    color:#92C2F0;
+    vertical-align: top;
+    padding-top: 18px;
+    text-indent: 0px;
+    text-shadow: 1px 1px 1px #222;
+}
+
+
+td.ts_logo {
+    width: 20%;
+    text-align: center;
+    text-indent: 0px;
+    height: 110px;
+    border: solid 0px #92C2F0;
+    vertical-align: center;
+}
+
+
+td.ts_text {
+    width: 80%;
+    text-indent: 0px;
+    height: 110px;
+    border: solid 0px #92C2F0;
+    vertical-align: top;
+    padding-top: 18px;
+}
+
+th.ts_logo>img{
+height: 90px;
+}
+
+td.ts_logo>img{
+height: 90px;
+}
+
+
+.pTop{
+  margin: 0px;
+  text-align: left;
+  font-size: 14px;
+  line-height:18px;
+  padding-bottom:0px;         
+  padding-top:12px;  
+}
+
+.theme_header>h2 {
+    font-size: 20px!important;
+    padding-left: 10px;
+    text-transform: none;
+    color: #2c3e50;
+    background-color: #ffffff;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.theme_header {
+    background-color: #ffffff;
+    border-bottom: 3px solid #2c3e50;
+    box-shadow: 0 0 20px #92C2F0;
+    font-size: 20px!important;
+    padding-left: 5px;
+    text-transform: none;
+    color: #003300;
+    height: auto;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.fa-exclamation-circle:before {
+    content: "\f06a";
+}
+
+/* GAMES PAGE */
+
+/* gallery */
+
+#gallery {
+  padding-top: 15px;
+}
+
+
+
+
+
+/* HiSTORY PAGE */
+
+#history {
+  max-width: auto;
+  width: 80%;
+  border: 20px solid #bdc3c7;
+  padding: 20px;
+  margin: 20px auto;
+  font-family: Source Sans Pro;
+}
+
+#history, h3 {
+  color: #2c3e50;
+  font-size: 2.0rem;
+  text-shadow: 1px 1px 1px #222;
+  
+}
+
+.date-style {
+  color:  #92C2F0;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding-left: 5px;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+/* END HISTORY PAGE */ 
+
+/* Gradient transparent - color - transparent */
+
+#hr-style {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+p {
+  color: white;
+  /*padding-left: 1.66%;*/
+
+}
+
+.border {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+
+}
+
+
+
+/* END OF HISTORY PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+
+  #game {
+    height: 675px;
+  }
+
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/fc-hermanos-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Team name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+
+  .players-photo {
+    margin-right: auto;
+  }
+
+  .players-description {
+    text-align: center;;
+  }
+
+  #game {
+    width: 50%;
+  }
+
+  /* End Footer */
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+
+.col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+
+   /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  #game {
+    width: 300px;
+    height: 100%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
