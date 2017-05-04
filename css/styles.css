@@ -3,6 +3,7 @@ body {
   color: #fff;
   background-color: #808080;
   font-family: 'Oxygen', sans-serif;
+
 }
 
 /** HEADER **/
@@ -84,11 +85,6 @@ body {
   font-style: italic;
 }
 
-#testimonials, p {
-  text-shadow: 1px 1px 1px #222;
-  
-}
-
 #testimonials p:nth-child(2) {
   margin-top: 25px;
   text-shadow: 1px 1px 1px #222;
@@ -97,15 +93,12 @@ body {
      cursor: pointer
 }
 
-#sponsor{
-  margin: 0 auto;
-  background: url('../images/sponsor1.png')no-repeat;
-  background-position: center;
-  box-shadow: 0 0 20px #4285f4;
-  border: 2px solid #0C0532;
-  width: auto;
-    
+.text-center .img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+  
 }
+
 
 /* END FOOTER */
 
@@ -177,7 +170,7 @@ body {
   box-shadow: 0 2px 5px 2px #4285f4;
 }
 #menu-categories-title{
-  text-shadow: 1px 1px 1px #222;
+  /*text-shadow: 1px 1px 1px #222;*/
   margin-bottom: 50px;
 }
 
@@ -186,7 +179,7 @@ body {
 }
 
 .text-center {
-   text-shadow: 1px 1px 1px #222;
+   /*text-shadow: 1px 1px 1px #222;*/
 }
 /* END MENU CATEGORIES PAGE */
 
@@ -207,7 +200,7 @@ body {
   font-size: .6em;
 }
 .player-tile, h4{
-  text-shadow: 1px 1px 1px #222;
+  /*text-shadow: 1px 1px 1px #222;*/
 }
 .players-photo {
   position: relative;
@@ -233,10 +226,10 @@ body {
 h3.players-title {
   margin: 0 0 10px;
 }
+
 .players-details {
   font-size: .9em;
   font-style: italic;
-  text-shadow: 1px 1px 1px #222;
 }
 /* END PLAYERS PAGE */
 
@@ -351,12 +344,10 @@ l::-webkit-scrollbar-corner{
 table, th, td {
     border-collapse: collapse;
     text-align: left;
-    font-family: myriad pro, arial;
     font-size: 14px;
     text-indent: 5px;
     background-color: #ffffff;
-    color: #2c3e50;
-    text-shadow: 1px 1px 1px #222;   
+    color: #2c3e50;  
 }
  
 table {
@@ -488,7 +479,6 @@ th.ts_text{
     vertical-align: top;
     padding-top: 18px;
     text-indent: 0px;
-    text-shadow: 1px 1px 1px #222;
 }
 
 
@@ -535,7 +525,7 @@ height: 90px;
     text-transform: none;
     color: #2c3e50;
     background-color: #ffffff;
-    text-shadow: 1px 1px 1px #222;
+    /*text-shadow: 1px 1px 1px #222;*/
 }
 
 .theme_header {
@@ -551,7 +541,6 @@ height: 90px;
 
 .fa {
     display: inline-block;
-    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     line-height: 1;
@@ -588,13 +577,12 @@ height: 90px;
   border: 20px solid #bdc3c7;
   padding: 20px;
   margin: 20px auto;
-  font-family: Source Sans Pro;
+
 }
 
 #history, h3 {
   color: #2c3e50;
   font-size: 2.0rem;
-  text-shadow: 1px 1px 1px #222;
   
 }
 
